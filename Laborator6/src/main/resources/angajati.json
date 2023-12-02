@@ -1,0 +1,36 @@
+[
+  {
+    "nume": "Alina",
+    "postul": "contabil",
+    "data_angajatorii": "2014-04-02",
+    "salariu":1567
+
+  },
+  {
+    "nume": "Maria",
+    "postul": "invatatoare",
+    "data_angajatorii": "2010-04-02",
+    "salariu":700
+
+  },
+  {
+    "nume": "loredana",
+    "postul": "notar",
+    "data_angajatorii": "2022-08-02",
+    "salariu":2510
+
+  },
+  {
+    "nume": "Ionut",
+    "postul": "IT",
+    "data_angajatorii": "2000-04-02",
+    "salariu":6500
+
+  },
+  {
+    "nume": "Marius",
+    "postul": "sef",
+    "data_angajatorii": "2022-04-04",
+    "salariu": 10010
+  }
+]
