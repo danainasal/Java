@@ -1,0 +1,7 @@
+[{"numar1":2,"numar2":5,"fibonaci":false,"sumaCifreEgala":false,"acelasiNumarDeCifrePare":false},
+  {"numar1":50,"numar2":23,"fibonaci":false,"sumaCifreEgala":true,"acelasiNumarDeCifrePare":true},
+  {"numar1":26,"numar2":8,"fibonaci":false,"sumaCifreEgala":true,"acelasiNumarDeCifrePare":false},
+
+  {"numar1":3,"numar2":5,"fibonaci":true,"sumaCifreEgala":false,"acelasiNumarDeCifrePare":true},
+  {"numar1":101,"numar2":2,"fibonaci":false,"sumaCifreEgala":true,"acelasiNumarDeCifrePare":true},
+  {"numar1":1,"numar2":1,"fibonaci":true,"sumaCifreEgala":true,"acelasiNumarDeCifrePare":true}]
