@@ -1,0 +1,27 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="autoturismSetter" class="exercitiul1.Autoturism">
+        <property name="marca" value="Audi" />
+        <property name="pret" value="50000.0" />
+        <property name="volumPortbagaj" value="500.0" />
+        <property name="greutate" value="1500.0" />
+    </bean>
+    <bean id="autoturismConstructor" class="exercitiul1.Autoturism">
+        <constructor-arg value="BMW" />
+        <constructor-arg value="60000.0" />
+        <constructor-arg value="700.0" />
+        <constructor-arg value="1800.0" />
+    </bean>
+    <bean id="vehicul" class="exercitiul1.Vehicul">
+        <constructor-arg value="Ford" />
+        <constructor-arg value="40000.0" />
+    </bean>
+    <bean id="motocicleta" class="exercitiul1.Motocicleta">
+        <constructor-arg value="Yamaha" />
+        <constructor-arg value="12000.0" />
+        <constructor-arg value="200.0" />
+    </bean>
+
+</beans>

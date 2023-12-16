@@ -1,0 +1,18 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:component-scan base-package="exercitiul1"/>
+
+    <!-- Bean de tip Tir cu injectare folosind adnotări -->
+    <bean id="tir" class="exercitiul1.Tir">
+        <property name="marca" value="Volvo" />
+        <property name="pret" value="100000.0" />
+        <property name="incarcaturaMaxima" value="20000.0" />
+    </bean>
+
+</beans>
